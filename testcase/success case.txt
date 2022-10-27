@@ -1,0 +1,34 @@
+//多个空格合并
+
+
+int program(int a,int b , int c)
+{
+    int     i;//多个空格合并
+    int     j;
+    i=1; 	
+    if(a>(b+c))
+    {
+        j=a+(b*c+1);
+    }
+    else
+    {
+        j=a;
+    }
+    while(i<=     100)
+    {
+        i=i*2;
+    }
+    return i;
+}
+int main(void)
+{
+    int a;
+    int b;
+    int c;
+a=6;
+b=2;
+c=3;
+    return program(a,b,c);
+}
+#结束
+
